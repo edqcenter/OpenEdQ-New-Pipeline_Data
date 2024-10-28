@@ -1,5 +1,6 @@
 /*
-
+This script builds off of all previous scripts and creates a view 
+that can be used to count teaching credential enrollments by various characteristics.
 */
 
 create or alter view [core_ers].[vw_core_enrollment_count_and_completion_rate]

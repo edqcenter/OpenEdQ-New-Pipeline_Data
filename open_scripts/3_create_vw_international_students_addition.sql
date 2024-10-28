@@ -1,8 +1,5 @@
 /*
 This CTE creates a column race_desc_with_intl.
-
-This version uses two years of profile data for AY 2021-2022 and AY 2022-2023. Jimmy has requested the non-profile data from the IR & A team.
-
 */
 
 /*
