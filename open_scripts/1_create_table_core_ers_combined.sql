@@ -1,6 +1,7 @@
 /*
 This query creates the erss_combined table by unioning all the ERSS tables.
-Make sure to ALTER the datatypes of the new ERS file before union all onto the ERSS combined table.
+1. Make sure to remove records from erss_term 4 and erss_year 2023 because they are already present in the 2023-2024 ERSS file.
+2. Make sure to ALTER the datatypes of the new ERS file before union all onto the ERSS combined table.
 */
 use ctq;
 -- drop table if exists core_ers.erss_combined;

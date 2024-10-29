@@ -15,6 +15,6 @@ select
 	, count(*) as total_count
 from [core_ers].[vw_core_enrollment_count_and_completion_rate]
 where erss_year = 2021
-group by 1
+group by Credential_Type
 order by total_count DESC;
 
