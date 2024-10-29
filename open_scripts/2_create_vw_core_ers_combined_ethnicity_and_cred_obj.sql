@@ -75,6 +75,9 @@ SELECT
     , campus_codes_and_names.campus_id_number
     , campus_codes_and_names.campus_letter_code
 FROM core_ers.erss_combined
+/*
+Add in credential objective, race/ethnicity and campus name data.
+*/
 INNER JOIN core_ers.vw_cred_obj_lookup 
     ON erss_combined.erss_cred_obj = vw_cred_obj_lookup.lookup_erss_cred_obj
 INNER JOIN core_ers.ipeds_race_lookup 

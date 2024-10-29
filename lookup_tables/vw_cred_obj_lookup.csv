@@ -1,0 +1,101 @@
+﻿lookup_erss_cred_obj,cred_obj_description,code_value
+100,Single Subject,SS
+105,Agriculture,SS
+110,Art,SS
+115,Business,SS
+120,English,SS
+125,Government,SS
+130,Health Sciences,SS
+135,History,SS
+140,Home Economics,SS
+142,Filipino,SS
+143,Turkish,SS
+144,Arabic,SS
+145,Industrial Technology,SS
+146,Armenian,SS
+147,Cantonese,SS
+148,Farsi,SS
+149,Hindi,SS
+150,Khmer,SS
+151,Chinese,SS
+152,French,SS
+153,German,SS
+154,Italian,SS
+155,Japanese,SS
+156,Latin,SS
+157,Russian,SS
+158,Spanish,SS
+159,Korean,SS
+160,Life Science,SS
+161,Hmong,SS
+162,Mandarin,SS
+163,Vietnamese,SS
+164,Punjabi,SS
+165,Mathematics,SS
+166,Foundation Level Mathematics,SS
+167,Foundation Level General Science,SS
+170,Music,SS
+171,Chemistry (Specialized),SS
+172,Geo Sciences (Specialized),SS
+173,Physics (Specialized),SS
+174,Biological Sciences (Specialized),SS
+175,Physical Education,SS
+180,Physical Science,SS
+181,Science: Chemistry,SS
+182,Science: Geo Science,SS
+183,Science: Physics,SS
+184,Science: Biological Science,SS
+185,Social Science,SS
+186,Portuguese,SS
+187,Hebrew,SS
+188,Dance,SS
+189,Theater,SS
+190,American Sign Language,SS
+195,English Language Development [2013-2014],SS
+200,Multiple Subject Credential,MS
+400,Special Education,ES
+410,Reading Language Arts Specialist,Other
+415,Reading Certificate,Other
+420,Mathematics Specialist,Other
+425,PK-3 Early Childhood Education Specialist (effective Fall 2023),PK3 ECES
+430,Early Childhood Education Specialist (retiring Summer 2023),ES
+435,"Early Childhood Special Education (basic credential, effective 1997-1998)",Other
+436,Early Childhood Special Education (2010),ES
+440,Bilingual/Cross-Cultural Specialist Certificate,Other
+441,Afro-American Certificate,Other
+442,Cantonese Certificate,Other
+443,Cantonese/Mandarin Certificate,Other
+444,Japanese Certificate,Other
+445,Spanish (Mexican/American) Certificate,Other
+446,Tagalog Certificate,Other
+447,CTEL (California Teacher of English Learners) CLAD Certificate,Other
+450,Health Science,Other
+465,Gifted,Other
+467,Resource Specialist Certificate,Other
+470,Agriculture Specialist,Other
+481,Mild/Moderate Disabilities (2010),ES
+482,Moderate/Severe Disabilities (2010),ES
+483,Visual Impairments (2010),ES
+484,Physical and Health Impairments (2010),ES
+485,Deaf and Hard of Hearing (2010),ES
+486,Mild to Moderate Support Needs,ES
+487,Extensive Support Needs,ES
+490,Adapted Physical Education,ES
+501,Certificate of Eligibility/Preliminary Administrative Services,Other
+502,Professional Administrative Services (2nd Tier),Other
+600,Health Services/School Nurse,Other
+700,Librarianship/Media,Other
+801,Pupil Personnel Services - Child Welfare and Attendance,Other
+802,Pupil Personnel Services - Counseling,Other
+803,Pupil Personnel Services - School Social Work,Other
+804,Pupil Personnel Services - School Psychology,Other
+901,"Language, Speech, and Hearing",Other
+902,"Language, Speech, and Hearing/Audiology",Other
+903,Audiology,Other
+904,Orientation Mobility,Other
+910,"Language, Speech, and Hearing, including a Special Class Authorization",Other
+911,"Language, Speech, and Hearing, adding a Special Class Authorization",Other
+912,"Language, Speech, and Hearing",Other
+952,"Language, Speech, and Hearing Audiology",Other
+953,"Language, Speech, and Hearing including Special Class Authorization",Other
+954,"Language, Speech, Hearing, and Audiology including Special Class Authorization",Other

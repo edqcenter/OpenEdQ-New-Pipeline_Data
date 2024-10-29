@@ -1,5 +1,6 @@
 /*
-This CTE creates cleans up the credential objective lookup table and crews a view of the table.
+Note: Run this before 2, if needed.
+This CTE creates cleans up the credential objective lookup table and creates a view of the table.
 */
 
 drop view if exists core_ers.vw_cred_obj_lookup;
