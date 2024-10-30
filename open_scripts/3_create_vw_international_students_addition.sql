@@ -21,7 +21,7 @@ select
 
   Notes: As of Fall 2022 according to the Student Success Dashboards, students whose citizenship code value included Non-US citizen, 
   undetermined status or no Visa require are no longer categorized as part of the International group.
-  This means erss_cit 'O' and 'F" are still considered "International Student" for Fall 2022 onward.
+  This means erss_cit 'F', 'J', and 'O' are still considered "International Student" for Fall 2022 onward.
   */
   case
   ---- Non-U.S. citizen
@@ -30,7 +30,7 @@ select
    and erss_year IN (2019,2020,2021)
   then 'International Student'
   when
-   erss_cit IN ('F','O')
+   erss_cit IN ('F','J','O')
    and erss_year IN (2022,2023)
   then 'International Student'
     else race_description
