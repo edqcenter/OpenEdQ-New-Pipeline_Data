@@ -14,8 +14,10 @@ Known differences between EdQ Pipeline Data and IR & A teaching credential enrol
 Backlog of changes to be made:
 1. [Completed 11/4/2024] cred_objective 430 to be changed to "Other" category
 2. [Completed 11/4/2024] cred_objective 461 and 463 to be added to "Special Education" category for years 2020 and prior.
-3. Add feature to sort or group by STEM credential objectives.
-4. Align, where possible, with CTC's Teacher Supply: Credentials dashboard definitions
+3. Add in Completer page showing number of program completers by campus.
+4. Add in Completion Rate page showing completion rates of teacher candidates by campus.
+5. Add feature to sort or group by STEM credential objectives.
+6. Align, where possible, with CTC's Teacher Supply: Credentials dashboard definitions
 
 Tableau Features
 - How to suppress counts less than 10: https://community.tableau.com/s/question/0D54T00000RfYy8SAF/how-to-hide-counts-5-in-tables-to-protect-identity
