@@ -16,6 +16,7 @@ select
   when
 	erss_stud_lev in (3,4)
 	and erss_cred_stat in ('5', '6')
+	-- erss_stud_stand B: means "Admitted to an integrated program."
 	and erss_stud_stand in ('B')
 	and code_value in ('SS','MS','ES')
   then 'Preliminary: Integrated'
@@ -23,6 +24,7 @@ select
   when
 	erss_stud_lev in (3,4)
 	and erss_cred_stat in ('5', '6')
+	-- erss_stud_stand 5: means "Admitted to a postbaccalaureate credential or certificate program with classified status."
 	and erss_stud_stand in ('5')
 	and code_value in ('SS','MS','ES')
   then 'Preliminary: Traditional Undergraduate'
