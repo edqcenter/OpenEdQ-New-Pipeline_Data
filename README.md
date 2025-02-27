@@ -11,14 +11,18 @@ the Institutional Research and Analyses team at the CO.
 2. "Regular" Credential Programs are labeled as "Traditional" Credential Programs
 
 **Backlog of changes to be made:**
-1. [Completed 11/4/2024] cred_objective 430 to be changed to "Other" category
-2. [Completed 11/4/2024] cred_objective 461 and 463 to be added to "Special Education" category for years 2020 and prior.
-3. Add in Completer page showing number of program completers by campus.
-4. Add in Completion Rate page showing completion rates of teacher candidates by campus.
-5. Add feature to sort or group by STEM credential objectives.
-6. Align, where possible, with CTC's Teacher Supply: Credentials dashboard definitions
+- [Completed 11/4/2024] cred_objective 430 to be changed to "Other" category
+- [Completed 11/4/2024] cred_objective 461 and 463 to be added to "Special Education" category for years 2020 and prior.
+- Add map of campuses with enrollment counts.
+- Add in Completer page showing number of program completers by campus.
+- Add in Completion Rate page showing completion rates of teacher candidates by campus.
+- Add feature to sort or group by STEM credential objectives.
+- Align, where possible, with CTC's Teacher Supply: Credentials dashboard definitions
 
 **Tableau Features**
 - How to suppress counts less than 10: https://community.tableau.com/s/question/0D54T00000RfYy8SAF/how-to-hide-counts-5-in-tables-to-protect-identity
 - How to show multiple labels on one bar chart column: https://community.tableau.com/s/question/0D54T00000C68VLSAZ/how-to-show-percentage-and-count-on-stacked-bar-chart-in-tableau
 - How to add an adjustable radius around a geographic point: https://community.tableau.com/s/question/0D54T00000VBY8eSAH/how-to-add-radius-circle-around-location-on-map
+
+**Knowledge Base**
+- Pathways to Credentialing: https://www.ctc.ca.gov/credentials/roadmap-to-teaching/becoming-a-teacher-in-california/pathways-to-credentialing
