@@ -4,7 +4,7 @@ Open scripts for working with ERS data.
 - Most scripts are written as one common table expression (CTE) to implement a single unit of business logic, such as modifying a field to show 'New', 'Continuing', or 'Returning' students.
 - The file structure and data types of the final script, 5, follow the the structure as the ERS files received from
 the Institutional Research and Analyses team at the CO.
-- The business logic for enrollment is intented to align with Appendix C in the ERS Data Dictionary (CSU Access Only):https://asd.calstate.edu/ded/index.asp?ded=4&fid=3  
+- The business logic for enrollment is intended to align with Appendix C in the ERS Data Dictionary (CSU Access Only): https://asd.calstate.edu/ded/index.asp?ded=4&fid=3  
 
 **Known differences between EdQ Pipeline Data and IR & A teaching credential enrollment dashboard:**
 1. The EdQ Pipeline Data shows 1,339 enrollments for Fall term 2021 for Special Education, Mild/Moderate Disabilities while the IR & A dashboard shows 1,322 enrollments. This difference of 17 students is due to the IR & A dashboard using Fall 2021 profile data. https://tableau.calstate.edu/#/views/CredentialsEnrollmentProduction/TeachingCredentialEnrollment?:iid=1?iframeSizedToWindow=true&:embed=y&:showAppBanner=false&:display_count=no&:showVizHome=no&:origin=viz_share_link
@@ -14,7 +14,6 @@ the Institutional Research and Analyses team at the CO.
 |----------------------------|-------------------------------|
 | Credential Pathway         | Credential Subject Type       |
 | Gender                     | Sex                           |
-| Credential Level           | Credential Type               |
 | Credential Objective       | Credential Subjects           |
 
 
