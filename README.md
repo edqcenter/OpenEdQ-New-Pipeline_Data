@@ -7,15 +7,22 @@ the Institutional Research and Analyses team at the CO.
 - The business logic for enrollment is intented to align with Appendix C in the ERS Data Dictionary (CSU Access Only):https://asd.calstate.edu/ded/index.asp?ded=4&fid=3  
 
 **Known differences between EdQ Pipeline Data and IR & A teaching credential enrollment dashboard:**
-1. The EdQ Pipeline Data shows 1,339 enrollments for Fall term 2021 for Special Education, Mild/Moderate Disabilities while the IR & A dashboard shows 1,322 enrollments. https://tableau.calstate.edu/#/views/CredentialsEnrollmentProduction/TeachingCredentialEnrollment?:iid=1?iframeSizedToWindow=true&:embed=y&:showAppBanner=false&:display_count=no&:showVizHome=no&:origin=viz_share_link
+1. The EdQ Pipeline Data shows 1,339 enrollments for Fall term 2021 for Special Education, Mild/Moderate Disabilities while the IR & A dashboard shows 1,322 enrollments. This difference of 17 students is due to the IR & A dashboard using Fall 2021 profile data. https://tableau.calstate.edu/#/views/CredentialsEnrollmentProduction/TeachingCredentialEnrollment?:iid=1?iframeSizedToWindow=true&:embed=y&:showAppBanner=false&:display_count=no&:showVizHome=no&:origin=viz_share_link
 2. "Regular" Credential Programs are labeled as "Traditional" Credential Programs
+| EdQ dashboard filter label | IR & A dashboard filter label |
+|----------------------------|-------------------------------|
+| Credential Pathway         | Credential Subject Type       |
+| Gender                     | Sex                           |
+| Credential Level           | Credential Type               |
+| Credential Objective       | Credential Subjects           |
+
 
 **Backlog of changes to be made:**
 - [Completed 11/4/2024] cred_objective 430 to be changed to "Other" category
 - [Completed 11/4/2024] cred_objective 461 and 463 to be added to "Special Education" category for years 2020 and prior.
-- Add map of campuses with enrollment counts.
-- Add in Completer page showing number of program completers by campus.
-- Add in Completion Rate page showing completion rates of teacher candidates by campus.
+- [Completed 2/26/2025] Add map of campuses with enrollment counts.
+- [In Development] Add in Completer page showing number of program completers by campus.
+- [In Development] Add in Completion Rate page showing completion rates of teacher candidates by campus.
 - Add feature to sort or group by STEM credential objectives.
 - Align, where possible, with CTC's Teacher Supply: Credentials dashboard definitions
 
