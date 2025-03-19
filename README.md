@@ -9,6 +9,7 @@ the Institutional Research and Analyses team at the CO.
 **Known differences between EdQ Pipeline Data and IR & A teaching credential enrollment dashboard:**
 1. The EdQ Pipeline Data shows 1,339 enrollments for Fall term 2021 for Special Education, Mild/Moderate Disabilities while the IR & A dashboard shows 1,322 enrollments. This difference of 17 students is due to the IR & A dashboard using Fall 2021 profile data. https://tableau.calstate.edu/#/views/CredentialsEnrollmentProduction/TeachingCredentialEnrollment?:iid=1?iframeSizedToWindow=true&:embed=y&:showAppBanner=false&:display_count=no&:showVizHome=no&:origin=viz_share_link
 2. "Regular" Credential Programs are labeled as "Traditional" Credential Programs
+
 | EdQ dashboard filter label | IR & A dashboard filter label |
 |----------------------------|-------------------------------|
 | Credential Pathway         | Credential Subject Type       |
