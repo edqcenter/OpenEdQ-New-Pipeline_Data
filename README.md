@@ -15,7 +15,15 @@ the Institutional Research and Analyses team at the CO.
 | Credential Pathway         | Credential Subject Type       |
 | Gender                     | Sex                           |
 | Credential Objective       | Credential Subjects           |
+3. For some dashboard pages the "Race/Ethnicty" of the record is shown instead of "International Student".
 
+**Access protocol**
+1. A user clicks a link to a dashboard.
+2. They're redirected to the SSO (single sign-on) provider.
+3. They authenticate, usually with 2FA (two-factor authentication)
+4. Tableau receives their identity (such as john.smith@university.edu).
+5. Tableau checks what groups or explicit permissions that user has. These groups and permissions are managed by EdQ.
+6. Based on that, a user can view, interact, or be denied acccess to the dashboard.
 
 **Backlog of changes to be made:**
 - [Completed 11/4/2024] cred_objective 430 to be changed to "Other" category
