@@ -31,8 +31,6 @@ the Institutional Research and Analyses team at the CO.
 - [Completed 2/26/2025] Add map of campuses with enrollment counts.
 - [In Development] Add in Completer page showing number of program completers by campus.
 - [In Development] Add in Completion Rate page showing completion rates of teacher candidates by campus.
-- Add feature to sort or group by STEM credential objectives.
-- Align, where possible, with CTC's Teacher Supply: Credentials dashboard definitions
 
 **Tableau Features**
 - How to suppress counts less than 10: https://community.tableau.com/s/question/0D54T00000RfYy8SAF/how-to-hide-counts-5-in-tables-to-protect-identity
