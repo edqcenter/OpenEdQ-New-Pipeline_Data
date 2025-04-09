@@ -40,4 +40,5 @@ the Institutional Research and Analyses team at the CO.
 
 **Knowledge Base**
 - Pathways to Credentialing: https://www.ctc.ca.gov/credentials/roadmap-to-teaching/becoming-a-teacher-in-california/pathways-to-credentialing
+- Admission Policy for Preliminary Credential Programs: https://calstate.policystat.com/policy/17671099/latest/
 - ColorBrewer: Web tool for guidance in choosing choropleth map color schemes, based on the research of Dr. Cynthia Brewer. https://colorbrewer2.org/#type=qualitative&scheme=Set3&n=6
