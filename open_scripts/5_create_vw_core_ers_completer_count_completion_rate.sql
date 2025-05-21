@@ -16,32 +16,30 @@ select
   when
 	erss_stud_lev in (3,4)
 	and erss_cred_stat in ('5', '6')
-	-- erss_stud_stand B: means "Admitted to an integrated program."
 	and erss_stud_stand in ('B')
 	and code_value in ('SS','MS','ES')
-  then 'Preliminary: Integrated'
+  then 'Preliminary Credential: Integrated'
   ---- C-4: UNDERGRADUATE STUDENTS IN A REGULAR CREDENTIAL PROGRAM
   when
 	erss_stud_lev in (3,4)
 	and erss_cred_stat in ('5', '6')
-	-- erss_stud_stand 5: means "Admitted to a postbaccalaureate credential or certificate program with classified status."
 	and erss_stud_stand in ('5')
 	and code_value in ('SS','MS','ES')
-  then 'Preliminary: Traditional Undergraduate'
+  then 'Preliminary Credential: Regular Undergraduate'
   ---- C-5 Part 1: POSTBACCALAUREATE OR GRADUATE STUDENTS IN A REGULAR CREDENTIAL PROGRAM
   when 
 	erss_stud_lev = 5
 	and erss_cred_stat in ('5', '6', 'V', 'H', 'I', 'J', 'K')
 	and erss_stud_stand in ('C', '5', '1', '2', '3', '6', '7', '8')
 	and code_value in ('SS','MS','ES')
-  then 'Preliminary: Traditional Postbacc or Graduate' 
+  then 'Preliminary Credential: Regular Postbacc or Graduate' 
   ---- C-5 Part 2: POSTBACCALAUREATE OR GRADUATE STUDENTS IN A CLEAR CREDENTIAL PROGRAM
   when 
 	erss_stud_lev = 5
 	and erss_cred_stat in ('4')
 	and erss_stud_stand in ('C', '5', '1', '2', '3', '6', '7', '8')
 	and code_value in ('SS','MS','ES')
-  then 'Clear' 
+  then 'Clear Credential' 
   ---- C-6: STUDENTS IN AN INTERNSHIP PROGRAM
   when
 	erss_stud_lev = 5
@@ -49,12 +47,12 @@ select
 	and erss_stud_stand in ('5', '1', '2', '3', '6', '7', '8')
 	and code_value in ('SS','MS','ES')
 	-- or erss_cred_obj in (501,802,804))
-  then 'Preliminary: Internship'
+  then 'Preliminary Credential: Internship'
 	else 'Other'
 	end as Credential_Type
-from [core_ers].[vw_enrollment_status_addition]
+from [core_ers].[vw_core_enrollment_count_and_terms]
 )
 select * from cred_students_code_cte
-where erss_term = 4 
-and Credential_Type != 'Other' ;
+--where erss_term = 4 
+where Credential_Type != 'Other' ;
 go

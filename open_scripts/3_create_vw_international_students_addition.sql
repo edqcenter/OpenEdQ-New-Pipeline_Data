@@ -35,9 +35,7 @@ select
   then 'International Student'
     else race_description
     end as race_desc_with_intl
-----------------------------------------------
 from core_ers.mat_vw_erss_combined_ethnicity_and_cred_obj
-----------------------------------------------
 )
 select * from international_students_cte;
 go
